@@ -1,9 +1,13 @@
 // use exppress
 const express = require('express');
+var cors = require('cors');
 const app = express();
 
 // localhost: 3000
 app.listen(3000);
+
+// use cors
+app.use(cors());
 
 // connect all other modules
 const bodyParser = require('body-parser');
