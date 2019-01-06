@@ -1,19 +1,20 @@
 // use exppress
 const express = require('express');
+// install cors
 var cors = require('cors');
+// connect all other modules
+const bodyParser = require('body-parser');
+// conect to mongodb
+const mongoose = require('mongoose');
+// const app express
 const app = express();
 
 // localhost: 3000
-app.listen(3000);
+app.set('port', 3000);
 
 // use cors
 app.use(cors());
 
-// connect all other modules
-const bodyParser = require('body-parser');
-
-// conect to mongodb
-const mongoose = require('mongoose');
 mongoose.connect("mongodb://localhost:27017/locations", { useNewUrlParser: true });
 
 // use body parser
