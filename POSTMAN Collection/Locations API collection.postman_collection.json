@@ -1,0 +1,125 @@
+{
+	"id": "ab847032-525f-44d9-985a-f645db85e88c",
+	"name": "Locations API collection",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"c1c9f1a8-9b14-4552-9782-bb48b76baabe",
+		"a219220e-5eb4-4e1b-aa47-f87ac9584251",
+		"7fa431ef-1581-4662-bc47-2ed854c18dde",
+		"df4989b2-3f60-4eab-8348-0b178d15e648"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "7fa431ef-1581-4662-bc47-2ed854c18dde",
+			"name": "localhost:3000/api/locations/5c315b25d476125342508d46",
+			"url": "localhost:3000/api/locations/5c315b25d476125342508d46",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"lat\": \"1111\",\n    \"lon\": \"1111\",\n    \"alias\": \"non\",\n    \"category\": \"standard\" \n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a219220e-5eb4-4e1b-aa47-f87ac9584251",
+			"name": "localhost:3000/api/locations",
+			"url": "localhost:3000/api/locations",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"lat\": \"1101\",\n    \"lon\": \"0010\",\n    \"alias\": \"marker1\",\n    \"category\": \"standard\" \n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c1c9f1a8-9b14-4552-9782-bb48b76baabe",
+			"name": "localhost:3000/api/locations",
+			"url": "localhost:3000/api/locations",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "{\n    \"lat\": \"1101\",\n    \"lon\": \"0010\",\n    \"alias\": \"marker1\",\n    \"category\": \"standard\" \n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "df4989b2-3f60-4eab-8348-0b178d15e648",
+			"name": "localhost:3000/api/locations/5c315b25d476125342508d46",
+			"url": "localhost:3000/api/locations/5c315b25d476125342508d46",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"lat\": \"1111\",\n    \"lon\": \"1111\",\n    \"alias\": \"non\",\n    \"category\": \"standard\" \n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
